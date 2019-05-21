@@ -1,0 +1,34 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome event </title> 
+	<script type="text/javascript"> 
+	<!-- HIDE FROM INCOMPATIBLE BROWSERS
+		var visitor_name = ""; 
+		function greet_visitor() { 
+			visitor_name = prompt("Please enter your name","Enter your name here");
+			alert("welcome, " + visitor_name + "!") }
+			function farewell_visitor() {
+            alert("Thanks, " + visitor_name + ", for visting abdul website!");
+
+			}
+
+            // STOP HIDING FROM INCOMPATIBLE BROWSERS -->
+
+		
+		</script>
+</head>
+<body onload="greet_visitor();" onunload="farewell_visitor();"> 
+<form>
+	<input type="text" name="text_field" size="25"
+	onchange="alert(
+	'The value of the text_field has changed.');"> 
+	<br> 
+	<input type="button" value="Display text field contents" 
+	onclick="alert(text_field.value);">
+
+</form>	
+
+</body>
+</html>
